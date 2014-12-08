@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HoofTuner</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">Main</string>
+    <string name="action_settings">Settings</string>
+    <string name="url_api_status">http://ponyvillelive.com/api/index/status</string>
+    <string name="url_api_stations">http://ponyvillelive.com/api/station/list/category/audio</string>
+    <string name="url_api_nowplaying">http://ponyvillelive.com/api/nowplaying/index/id/</string>
+
+</resources>
