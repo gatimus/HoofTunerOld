@@ -50,6 +50,7 @@ public class PreLoad extends AsyncTask<Void, Void, Void> {
 		super.onPostExecute(result);
 		intent.putParcelableArrayListExtra("stations", stations);
 		context.startActivity(intent);
+		((Splash)context).finish();
 	} //onPostExecute
 
 } //class
