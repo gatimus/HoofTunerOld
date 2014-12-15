@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Twilight -->
+    <color name="twilight_eyes">#6D4490</color>
+    <color name="twilight_coat">#DCAEEE</color>
+    <color name="twilight_mane_dark">#3C4D85</color>
+    <color name="twilight_mane">#7744A1</color>
+    <color name="twilight_mane_light">#F0599C</color>
+    
+    <!-- Applejack -->
+    <color name="applejack_eyes">#68C85C</color>
+    <color name="applejack_coat">#FFC36B</color>
+    <color name="applejack_mane_dark">#E52246</color>
+    <color name="applejack_mane">#F9F9B3</color>
+    <color name="applejack_mane_light">#FBF9AF</color>
+    
+    <!-- Fluttershy -->
+    <color name="fluttershy_eyes">#1AC1B9</color>
+    <color name="fluttershy_coat">#FCF4A4</color>
+    <color name="fluttershy_mane_dark">#D975AC</color>
+    <color name="fluttershy_mane">#F0ABCE</color>
+    <color name="fluttershy_mane_light">#FCB8D9</color>
+    
+    <!-- Rarity -->
+    <color name="rarity_eyes">#558ABE</color>
+    <color name="rarity_coat">#F1F1F3</color>
+    <color name="rarity_mane_dark">#520672</color>
+    <color name="rarity_mane">#F1F1F3</color>
+    <color name="rarity_mane_light">#8847A5</color>
+    
+    <!-- Pinkie -->
+    <color name="pinkie_eyes">#76D2FB</color>
+    <color name="pinkie_coat">#FAB3D1</color>
+    <color name="pinkie_mane_dark">#DF2C89</color>
+    <color name="pinkie_mane">#F7438C</color>
+    <color name="pinkie_mane_light">#FCEFA4</color>
+    
+    <!-- Rainbow -->
+    <color name="rainbow_eyes">#BE1D78</color>
+    <color name="rainbow_coat">#9FE7FF</color>
+    <color name="rainbow_mane_dark">#FE585A</color>
+    <color name="rainbow_mane">#F2E576</color>
+    <color name="rainbow_mane_light">#38ABEE</color>
+    
+    <!-- Celestia -->
+    <color name="celestia_eyes">#E18FE4</color>
+    <color name="celestia_coat">#FDF5FB</color>
+    <color name="celestia_mane_dark">#93B9FF</color>
+    <color name="celestia_mane">#64DCB7</color>
+    <color name="celestia_mane_light">#F5ADFF</color>
+    
+    <!-- Luna -->
+    <color name="luna_eyes">#126782</color>
+    <color name="luna_coat">#373A77</color>
+    <color name="luna_mane_dark">#2449BE</color>
+    <color name="luna_mane">#8E8AC4</color>
+    <color name="luna_mane_light">#81B9FF</color>
+    
+</resources>

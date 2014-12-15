@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="themes">
+        <item name="Twilight">Evening</item>
+        <item name="Applejack">Apples</item>
+        <item name="Fluttershy">Shy</item>
+        <item name="Rarity">Rare</item>
+        <item name="Pinkie">Pink</item>
+        <item name="Rainbow">Fast</item>
+        <item name="Celestia">Sun</item>
+        <item name="Luna">Moon</item>
+    </string-array>
+    
+    <array name="themeValues">
+        <item name="Twilight">@style/Twilight</item>
+        <item name="Applejack">@style/Applejack</item>
+        <item name="Fluttershy">@style/Fluttershy</item>
+        <item name="Rarity">@style/Rarity</item>
+        <item name="Pinkie">@style/Pinkie</item>
+        <item name="Rainbow">@style/Rainbow</item>
+        <item name="Celestia">@style/Celestia</item>
+        <item name="Luna">@style/Luna</item>
+    </array>
+    
+</resources>

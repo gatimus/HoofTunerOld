@@ -20,17 +20,17 @@ public class Song {
 	
 	//API variables
 	private int id;
-	private String text;
+	public String text;
 	private String artist;
 	private String title;
 	private String album; //external>bronytunes
 	private String description; //external>bronytunes
-	private URL imageUrl; //external>bronytunes
+	public URL imageUrl; //external>bronytunes
 	
 	public Song(JSONObject jObject){
 		Log.v(TAG, "construct");
 		try {
-			id = jObject.getInt("id");
+			//id = jObject.getInt("id");
 			text = jObject.getString("text");
 			artist = jObject.getString("artist");
 			title = jObject.getString("title");
@@ -38,12 +38,13 @@ public class Song {
 			album = bronytunes.getString("album"); //external>bronytunes
 			description = bronytunes.getString("description"); //external>bronytunes
 			imageUrl = new URL(bronytunes.getString("image_url")); //external>bronytunes
-			if(imageUrl != null){
-				image = BitmapFactory.decodeStream(imageUrl.openConnection().getInputStream());
-			}
+			//if(imageUrl != null){
+			//	image = BitmapFactory.decodeStream(imageUrl.openConnection().getInputStream());
+			//}
 		} catch (JSONException | IOException e) {
 			Log.e(TAG, e.toString());
 		}
 	} //constructor
+	
 
 } //class

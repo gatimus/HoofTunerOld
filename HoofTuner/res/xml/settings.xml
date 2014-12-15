@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/action_settings" android:key="@string/action_settings">
+    <ListPreference
+        android:entryValues="@array/themes"
+        android:entries="@array/themes"
+        android:key="theme"
+        android:title="@string/setting_theme"
+        android:dialogTitle="@string/setting_theme"
+        android:order="1"
+        android:enabled="true"
+        android:selectable="true"
+        android:dialogIcon="@drawable/square_logo_transparent_black"
+        android:icon="@drawable/square_logo_transparent_black"/>
+    
+
+</PreferenceScreen>

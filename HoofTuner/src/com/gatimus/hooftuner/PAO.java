@@ -88,7 +88,7 @@ public class PAO {
 	public JSONObject getNowPlaying(int stationId){
 		JSONObject json = null;
 		try {
-			json = getJSON(res.getString(R.string.url_api_nowplaying) + String.valueOf(stationId)).getJSONObject("result");
+			json = getJSON(res.getString(R.string.url_api_nowplaying) + String.valueOf(stationId)).getJSONObject("result").getJSONObject("current_song");
 		} catch (Exception e) {
 			Log.e(TAG, e.toString());
 		}

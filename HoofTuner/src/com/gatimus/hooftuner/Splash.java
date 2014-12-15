@@ -17,9 +17,11 @@ import org.json.JSONObject;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -27,6 +29,7 @@ import android.widget.TextView;
 public class Splash extends Activity {
 	
 	private static final String TAG = "Splash:";
+	private SharedPreferences sharedPrefs;
 	private AsyncTask preLoad;
 	private Intent intent;
 	private Resources res;
@@ -39,10 +42,20 @@ public class Splash extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
     	Log.v(TAG, "create");
+    	sharedPrefs = PreferenceManager.getDefaultSharedPreferences(this);
+    	String theme = sharedPrefs.getString("theme", "Twilight");
+		 Log.v(TAG, theme);
+		 if(theme == "Twilight"){
+			 getApplication().setTheme(R.style.Twilight);
+		 } else if (theme == "Applejack"){
+			 getApplication().setTheme(R.style.Applejack);
+		 }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         pBar = (ProgressBar) findViewById(R.id.progressBar);
+        CustomApp app = (CustomApp) getApplication();
         pText = (TextView) findViewById(R.id.progressText);
+        app.setTypeface(pText);
         pPercent = 0;
         this.res = getResources();
         this.intent = new Intent(this, Main.class);

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="Twilight" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/twilight_eyes</item>
+        <item name="android:textColorSecondary">@color/twilight_mane</item>
+        <item name="android:colorBackground">@color/twilight_coat</item>
+        <item name="android:windowBackground">@color/twilight_coat</item>
+        <!--  
+        <item name="android:colorPrimaryDark">@color/twilight_mane_dark</item>
+        <item name="android:colorPrimary">@color/twilight_mane</item>
+        <item name="android:colorAccent">@color/twilight_mane_light</item>
+        -->
+    </style>
+    
+    <style name="Applejack" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/applejack_eyes</item>
+        <item name="android:textColorSecondary">@color/applejack_mane</item>
+        <item name="android:colorBackground">@color/applejack_coat</item>
+        <item name="android:windowBackground">@color/applejack_coat</item>
+        <!--  
+        <item name="android:colorPrimaryDark">@color/applejack_mane_dark</item>
+        <item name="android:colorPrimary">@color/applejack_mane</item>
+        <item name="android:colorAccent">@color/applejack_mane_light</item>
+        -->
+    </style>
+    
+    <style name="Fluttershy" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/fluttershy_eyes</item>
+        <item name="android:textColorSecondary">@color/fluttershy_mane</item>
+        <item name="android:colorBackground">@color/fluttershy_coat</item>
+        <item name="android:windowBackground">@color/fluttershy_coat</item>
+        <!--  
+        <item name="android:colorPrimaryDark">@color/fluttershy_mane_dark</item>
+        <item name="android:colorPrimary">@color/fluttershy_mane</item>
+        <item name="android:colorAccent">@color/fluttershy_mane_light</item>
+        -->
+    </style>
+    
+    <style name="Rarity" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/rarity_eyes</item>
+        <item name="android:textColorSecondary">@color/rarity_mane</item>
+        <item name="android:colorBackground">@color/rarity_coat</item>
+        <item name="android:windowBackground">@color/rarity_coat</item>
+        <!--  
+        <item name="android:colorPrimaryDark">@color/rarity_mane_dark</item>
+        <item name="android:colorPrimary">@color/rarity_mane</item>
+        <item name="android:colorAccent">@color/rarity_mane_light</item>
+        -->
+    </style>
+    
+    <style name="Pinkie" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/pinkie_eyes</item>
+        <item name="android:textColorSecondary">@color/pinkie_mane</item>
+        <item name="android:colorBackground">@color/pinkie_coat</item>
+        <item name="android:windowBackground">@color/pinkie_coat</item>
+        <!--  
+        <item name="android:colorPrimaryDark">@color/pinkie_mane_dark</item>
+        <item name="android:colorPrimary">@color/pinkie_mane</item>
+        <item name="android:colorAccent">@color/pinkie_mane_light</item>
+        -->
+    </style>
+    
+    <style name="Rainbow" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/rainbow_eyes</item>
+        <item name="android:textColorSecondary">@color/rainbow_mane</item>
+        <item name="android:colorBackground">@color/rainbow_coat</item>
+        <item name="android:windowBackground">@color/rainbow_coat</item>
+        <!--  
+        <item name="android:colorPrimaryDark">@color/rainbow_mane_dark</item>
+        <item name="android:colorPrimary">@color/rainbow_mane</item>
+        <item name="android:colorAccent">@color/rainbow_mane_light</item>
+        -->
+    </style>
+    
+    <style name="Celestia" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/celestia_eyes</item>
+        <item name="android:textColorSecondary">@color/celestia_mane</item>
+        <item name="android:colorBackground">@color/celestia_coat</item>
+        <item name="android:windowBackground">@color/celestia_coat</item>
+    </style>
+    
+    <style name="Luna" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/luna_eyes</item>
+        <item name="android:textColorSecondary">@color/luna_mane</item>
+        <item name="android:colorBackground">@color/luna_coat</item>
+        <item name="android:windowBackground">@color/luna_coat</item>
+    </style>
+    
+</resources>
