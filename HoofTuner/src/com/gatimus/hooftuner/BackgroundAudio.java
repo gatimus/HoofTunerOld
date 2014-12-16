@@ -30,6 +30,7 @@ public class BackgroundAudio extends Service implements OnPreparedListener, OnEr
 	public BackgroundAudio() {
 		mMediaPlayer = new MediaPlayer();
 		mMediaPlayer.setOnPreparedListener(this);
+		mMediaPlayer.setOnErrorListener(this);
 		//mMediaPlayer.setWakeMode(getApplicationContext(), PowerManager.PARTIAL_WAKE_LOCK);
 		//wifiLock = ((WifiManager) getSystemService(Context.WIFI_SERVICE)).createWifiLock(WifiManager.WIFI_MODE_FULL, "mylock");
 	}
